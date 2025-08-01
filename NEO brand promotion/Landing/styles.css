@@ -11,7 +11,11 @@ header {
     padding: 32px 87px;
     height: 120px;
     box-shadow: 0 14px 24px 0 rgba(0, 0, 51, 0.04);
-    background: #100fa8;
+    background-color: #100fa8;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .header {
@@ -30,16 +34,13 @@ header {
     display: flex;
     flex-direction: row;
     gap: 40px;
-
     height: 24px;
 }
 
 .Servicios {
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
     font-weight: 700;
     font-size: 18px;
-    line-height: 133%;
     color: #f4f2fa;
     margin-right: 8px;
     display: block;
@@ -47,7 +48,6 @@ header {
 
 .Productos {
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
     font-weight: 700;
     font-size: 18px;
     line-height: 133%;
@@ -58,7 +58,6 @@ header {
 
 .Recursos {
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
     font-weight: 700;
     font-size: 18px;
     line-height: 133%;
@@ -69,7 +68,6 @@ header {
 
 .Casos-de-éxito {
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
     font-weight: 700;
     font-size: 18px;
     line-height: 133%;
@@ -78,7 +76,6 @@ header {
 
 .Blog {
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
     font-weight: 700;
     font-size: 18px;
     line-height: 133%;
@@ -90,13 +87,78 @@ header {
     border: 1px solid #f4f2fa;
     border-radius: 4px;
     padding: 16px;
-    width: 182px;
+    max-width: 182px;
     height: 56px;
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
     font-weight: 700;
     font-size: 18px;
     line-height: 133%;
     text-align: center;
     color: #f4f2fa;
+}
+
+.backh {
+    height: 840px;
+    background: #05058C;
+}
+
+.cont {
+    max-width: 1394px;
+    height: 840px;
+    margin-left: 144px;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    max-width: 610px;
+    height: 545px;
+}
+
+.Unimos {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    color: #fff;
+    margin-bottom: 72px;
+    display: block;
+}
+
+.btninf {
+    border-radius: 4px;
+    width: 188px;
+    background: #fff;
+    padding: 16px 0;
+}
+
+.btnp {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;color: #003;
+    font-family: "Montserrat", sans-serif;
+}
+
+.vipdiv {
+    padding: 8px 0;
+    width: 159px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #f4f2fa;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 8px;                
+}
+
+.vipdiv img {
+    height: auto;
+    display: block;
+}
+  
+.endinf {
+    max-width: 610px;
+    height: 93px;
 }
