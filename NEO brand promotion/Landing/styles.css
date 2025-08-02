@@ -14,10 +14,6 @@ header {
     background-color: #100fa8;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .header {
     display: flex;
     flex-direction: row;
@@ -98,8 +94,11 @@ body {
 }
 
 .backh {
+    position: relative; /* Щоб можна було позиціонувати всередині */
     height: 840px;
     background: #05058C;
+    z-index: 1; /* базовий рівень */
+    overflow: hidden; /* щоб все красиво вміщалося */
 }
 
 .cont {
@@ -108,6 +107,7 @@ body {
     margin-left: 144px;
     display: flex;
     align-items: center;
+    z-index: 2;
 }
 
 .info {
@@ -159,6 +159,51 @@ body {
 }
   
 .endinf {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
     max-width: 610px;
     height: 93px;
 }
+
+.endnum {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.endnummin {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.lastbackh {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1247px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2; /* поверх всього іншого у .backh */
+    margin-bottom: 56px;
+}
+
+.lastdiv {
+    display: flex;
+    align-items: center;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: #fff;
+    gap: 8px;
+}
+
