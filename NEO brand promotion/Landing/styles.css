@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    height: 9000px;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -99,6 +103,8 @@ header {
     background: #05058C;
     z-index: 1; /* базовий рівень */
     overflow: hidden; /* щоб все красиво вміщалося */
+    display: flex;
+    justify-content: center;
 }
 
 .cont {
@@ -107,7 +113,6 @@ header {
     margin-left: 144px;
     display: flex;
     align-items: center;
-    z-index: 2;
 }
 
 .info {
