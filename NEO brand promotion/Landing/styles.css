@@ -216,7 +216,6 @@ header {
     max-width: 1246px;
     height: 802px;
     display: flex;
-    align-items: center;
     gap: 48px;
     flex-direction: column;
     margin-top: 128px;
@@ -251,11 +250,20 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.vanbox {
+    max-width: 350px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
     gap: 16px;
 }
 
 .hedbox {
-    max-width: 350px;
+    width: 350px;
     height: 44px;
     font-family: "Monserrat", sans-serif;
     font-weight: 700;
@@ -273,6 +281,7 @@ header {
     line-height: 133%;
     color: #4d4d70;
     max-width: 350px;
+    height: 70px;
 }
 
 .lasttextbox {
@@ -281,6 +290,176 @@ header {
     font-size: 18px;
     line-height: 133%;
     color: #003;
-    text-align: left;
 }
 
+.colorlast {
+    border-radius: 0 0 8px 8px;
+    width: 400px;
+    height: 7px;
+    background: #05058c;
+    bottom: 0;
+}
+
+.lastcontamos {
+    max-width: 1250px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 128px;
+}
+
+.lastcontamos div h2 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    color: #003;
+}
+
+.goglas {
+    max-width: 1250px;
+    height: 55px;
+    display: flex;
+    gap: 146px;
+}
+
+.megasuperstyle {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f4f2fa;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    color: #f4f2fa;
+    margin-bottom: 48px;
+}
+
+.oao {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #f4f2fa;
+    margin-bottom: 64px;
+}
+
+.aobtn {
+    border: 1px solid #f4f2fa;
+    border-radius: 4px;
+    padding: 16px;
+    max-width: 188px;
+    height: auto;
+    background: #fff;
+}
+
+.aobtn p {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #05058c;
+}
+
+.lastbackhto {
+    width: 100%;
+    max-width: 1196px;
+    height: 24px;
+    background: #05058c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #003;
+    margin-bottom: 48px;
+}
+
+.bcp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.38px solid #ccccd6;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 380px;
+    height: 375px;
+    width: 100%;
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 51, 0.15);
+    background: #fff;
+    opacity: 0.5;
+}
+
+.textnuestros {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: #003;
+    display: block;
+    margin-bottom: 99px;
+}
+
+h5 {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 125%;
+    color: #4d4d70;
+}
+
+.owner {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 125%;
+    color: #4d4d70;
+}
+
+.vercaso {
+    display: flex;
+    align-items: center;
+    gap: 6px; /* трохи відступу між текстом і іконкою */
+    padding: 6px 0px;
+    max-width: 134px;
+    height: 30px;
+    font-family: "Monserrat", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 133%;
+    text-align: center;
+    color: #003;
+  }
+
+.cineplanet {
+    border: 0.50px solid #ccccd6;
+    border-radius: 8px;
+    padding: 32px;
+    max-width: 480px;
+    width: 100%;
+    height: 499px;
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 51, 0.15);
+    background: #fff;
+}
+
+.security {
+    border: 0.38px solid #ccccd6;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 380px;
+    height: 377px;
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 51, 0.15);
+    background: #fff;
+    opacity: 0.5;
+    width: 100%;
+}
